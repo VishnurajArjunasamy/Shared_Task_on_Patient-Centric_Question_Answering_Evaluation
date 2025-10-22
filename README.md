@@ -62,12 +62,14 @@ TeamA_Task1_Open/
 
 ```
 
-If the the folder and file structure is different from the above, make sure to edit the evaluation_script.ipynb accordingly.
+If the folder and file structure is different from the above, make sure to edit the evaluation_script.ipynb accordingly — particularly where file paths are defined or loaded.
 
 
 ### 4. Update the Paths
 
-Update the Paths for PRED_DIR, DT_DIR 
+Update the Paths for PRED_DIR, GT_DIR 
+
+### 5. Run the evaluation_script.ipynb notebook
 
 
 
