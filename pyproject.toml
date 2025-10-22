@@ -1,0 +1,11 @@
+[project]
+name = "shared-task-on-patient-centric-question-answering-evaluation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+      "evaluate>=0.4.6",
+      "bert-score>=0.3.13",
+      "rouge-score>=0.1.2",
+]
