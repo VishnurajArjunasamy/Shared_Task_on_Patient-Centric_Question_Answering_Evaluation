@@ -34,6 +34,7 @@ uv pip install -r requirements.txt
 
 The Prediction Dir foleder structure should follow the below format
 
+```
 <team_name>_<task_name>_<open/close>/
 └── English/
     ├── QnA/
@@ -45,6 +46,21 @@ The Prediction Dir foleder structure should follow the below format
     ├── Summary_KnV/
     │   ├── <team_name>_<task_name>_<open/close>_<dialogue_id>_SummaryKnV.json
 
+Example:
+TeamA_Task1_Open/
+└── English/
+    ├── QnA/
+    │   ├── TeamA_Task1_Open_D001_QnA.json
+    │   └── TeamA_Task1_Open_D002_QnA.json
+    ├── Summary_Text/
+    │   ├── TeamA_Task1_Open_D001_SummaryText.txt
+    │   └── TeamA_Task1_Open_D002_SummaryText.txt
+    ├── Summary_KnV/
+    │   ├── TeamA_Task1_Open_D001_SummaryKnV.json
+    │   └── TeamA_Task1_Open_D002_SummaryKnV.json
+
+
+```
 
 If the the folder and file structure is different from the above, make sure to edit the evaluation_script.ipynb accordingly.
 
