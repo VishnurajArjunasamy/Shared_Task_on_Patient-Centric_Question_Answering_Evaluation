@@ -32,7 +32,7 @@ uv pip install -r requirements.txt
 
 ### 3. Folder Structure
 
-The Prediction Dir foleder structure should follow the below format
+The Prediction DIR folder structure for Each language should follow the below format
 
 ```
 <team_name>_<task_name>_<open/close>/
